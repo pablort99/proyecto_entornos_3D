@@ -1,0 +1,1025 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\motor\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/proyectos unity/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59516
+Successfully changed project path to: D:/unity/proyectos unity/My project
+D:/unity/proyectos unity/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 90.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path D:/unity/motor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/proyectos unity/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'D:/unity/motor/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/motor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/motor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/motor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/motor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001943 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1217ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (505ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2630.
+Total: 3.602200 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.055000 ms MarkObjects: 3.124700 ms  DeleteObjects: 0.132000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2385a9c1508007956723cc92348844d') in 0.014853 seconds 
+  Import took 0.018641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.332029 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_01.fbx
+  artifactKey: Guid(3b4b94514a02c6846957adf803570635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_01.fbx using Guid(3b4b94514a02c6846957adf803570635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f712b231a9be0d0d75c991df84d7d31') in 0.197334 seconds 
+  Import took 0.200884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_Broken_01.fbx
+  artifactKey: Guid(fbf697a99609154439dcf7f6a015ec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_Broken_01.fbx using Guid(fbf697a99609154439dcf7f6a015ec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b51e9fe4ccabf2093f27cf5b9442a78') in 0.034177 seconds 
+  Import took 0.037500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Wood_Bridge_02.fbx
+  artifactKey: Guid(5fdf208eb3afaf84484cd2ca8d63433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Wood_Bridge_02.fbx using Guid(5fdf208eb3afaf84484cd2ca8d63433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798496a2ff095aa04ff6e156e707d97a') in 0.057840 seconds 
+  Import took 0.061133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Wood_Bridge_Start_01.fbx
+  artifactKey: Guid(e71ce4120350cf5448e1aca1aaf3ccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Wood_Bridge_Start_01.fbx using Guid(e71ce4120350cf5448e1aca1aaf3ccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090352c760d9e3de49c001eb7b50f910') in 0.035291 seconds 
+  Import took 0.038883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Wood_Bridge_01.fbx
+  artifactKey: Guid(6104f20c9a9922a4ea5daa64c6d5df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Wood_Bridge_01.fbx using Guid(6104f20c9a9922a4ea5daa64c6d5df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722e6adf42316b7f5ebfaec4a21baa4f') in 0.036962 seconds 
+  Import took 0.053546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.873531 seconds.
+  path: Assets/PolygonDungeon/Textures
+  artifactKey: Guid(0ce1857f59c137344bba424be041f75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Textures using Guid(0ce1857f59c137344bba424be041f75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffc3e54fef65ef65463cd3317ae3496') in 0.025347 seconds 
+  Import took 0.029113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.608829 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1816b35515c16a6d65ea3820c6926d') in 0.009298 seconds 
+  Import took 0.012916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1297.124205 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_Door_Metal_01.fbx
+  artifactKey: Guid(dd19bfb37217a7042b5757519961c10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_Door_Metal_01.fbx using Guid(dd19bfb37217a7042b5757519961c10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf2c200d28bd713f03aaca6da2e83e2') in 0.064895 seconds 
+  Import took 0.069169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_Toture_IronMaiden_01.fbx
+  artifactKey: Guid(d68a4dd458261334e8aae8faf9365045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_Toture_IronMaiden_01.fbx using Guid(d68a4dd458261334e8aae8faf9365045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e20dbd20e1d6c92891a6543701df1d') in 0.050599 seconds 
+  Import took 0.054129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_Door_Metal_02.fbx
+  artifactKey: Guid(890d63c3aeafa674da96601ad1df874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_Door_Metal_02.fbx using Guid(890d63c3aeafa674da96601ad1df874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35efdf7ab357eb4312b862c160d6fc38') in 0.056711 seconds 
+  Import took 0.069894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Prop_Trap_Pit_01.fbx
+  artifactKey: Guid(c8231581b5e782e44ba71d50d92d592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Prop_Trap_Pit_01.fbx using Guid(c8231581b5e782e44ba71d50d92d592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9585d670cb90ac293dde3c3299a6df1a') in 0.070118 seconds 
+  Import took 0.073473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/PolygonDungeon/Models/SM_Env_Trap_Pit_01.fbx
+  artifactKey: Guid(f2477a250bde5db4994a6aa8e3f8d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonDungeon/Models/SM_Env_Trap_Pit_01.fbx using Guid(f2477a250bde5db4994a6aa8e3f8d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15852c1eae0aa597d353ae341eaa06be') in 0.057656 seconds 
+  Import took 0.061117 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.125700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.166 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1166ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(8fdf5921ba9788546a0a1fb47a5f6f44) path("Assets/BOXOPHOBIC/Polyverse Skies/Core/Runtime/PolyverseSkies.cs") state(2)
+Script is not up to date after domain reload: guid(90057ce590a8bd148ab59e018f35d9cb) path("Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs") state(2)
+Script is not up to date after domain reload: guid(4549b3c71d08ce54ca9cd8e13c182991) path("Assets/BOXOPHOBIC/Polyverse Skies/Generator/Scripts/PolyverseSkiesGenerator.cs") state(2)
+Script is not up to date after domain reload: guid(d01ce91280120de49b931b40f9e16f6b) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(df9ee7b5ab129dd4991f424a8d93430b) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs") state(2)
+Script is not up to date after domain reload: guid(2734a300c1fbfb8499fe8a71e9b109e7) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(864d8c89c5d2ef240b0c51f15c5211e2) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(7cc33d297d20daa40a9b09fbb8e59502) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(c8daad1bc4051084ca6204e12dc0890d) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(80229de18cd73624b8181a9db49a304f) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(ae4fb3d8081065c47860724ea515c97c) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(528a63c4c58b58a4ca3927eec830c596) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs") state(2)
+Script is not up to date after domain reload: guid(0fb089d68a8e4634390e299256c8eec7) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs") state(2)
+Script is not up to date after domain reload: guid(d5699c954b5c9184199293b4ede31d57) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(896f8a6be3053ff4a8f322a960986af1) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs") state(2)
+Script is not up to date after domain reload: guid(0b32866cb35dd534c8ed7dda217b547e) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupArray.cs") state(2)
+Script is not up to date after domain reload: guid(b351b243374f2d948a9e9943abe174bf) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupLayersDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(ea3f7407f69f900468d4b60de570e49d) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(e11186e2ccd8bf44d9d8699902268c99) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs") state(2)
+Script is not up to date after domain reload: guid(0859d05e88a639846b09d3b97fe33c7b) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledPopupLayers.cs") state(2)
+Script is not up to date after domain reload: guid(ab83955dedb2aed428447d90cf62c81b) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(1525d4228f26951498e86e425363f3f0) path("Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs") state(2)
+Script is not up to date after domain reload: guid(7afe5a6ac49829c408df7e64761e822d) path("Assets/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs") state(2)
+Script is not up to date after domain reload: guid(b33fc29a1077eff40880c4d54b57136c) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs") state(2)
+Script is not up to date after domain reload: guid(9b9d23fc810e1af43952440e7dc14ea4) path("Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesHub.cs") state(2)
+Script is not up to date after domain reload: guid(87b94a9c1333f074e8c24cd5a2fe1d73) path("Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs") state(2)
+Script is not up to date after domain reload: guid(dd0ddca94871d9a4586a143a83184806) path("Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs") state(2)
+Script is not up to date after domain reload: guid(db0457065a494f34aa3b619f240d8bda) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(ab1d3117b9da8d7429e5ac70bd016772) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs") state(2)
+Script is not up to date after domain reload: guid(b1d35dbbb9b6c214aa892d7b240de3df) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(e0cf8ff3bbc97374f88272f686fb80e5) path("Assets/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs") state(2)
+Script is not up to date after domain reload: guid(f13faeb510c3cb54ba5d051ecaad26e3) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(0003a5bea05764747b05fa096a075848) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs") state(2)
+Script is not up to date after domain reload: guid(6dfd994aa3f6b3944a0bd6effc2b3102) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs") state(2)
+Script is not up to date after domain reload: guid(29c1ac24df072a744a4bdc6a209772bf) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs") state(2)
+Script is not up to date after domain reload: guid(1f2f57e67392e5b41af1a4cecc3a6c04) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(388415cfa9bb69041a8281bc567acec5) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs") state(2)
+Script is not up to date after domain reload: guid(7a0e1a0aaab33f341b20d7d940fe0a06) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs") state(2)
+Script is not up to date after domain reload: guid(5c044a3f1a37dcd41aa8c8ba4cee65cc) path("Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesWindows.cs") state(2)
+Script is not up to date after domain reload: guid(fb59d41716ab6114cb7cf03a5695083b) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(e735c9fb0ecd4084db26fa2a267d2d5b) path("Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesShaderGUI.cs") state(2)
+Script is not up to date after domain reload: guid(bf9745e7c3c176c4395dbd644b463703) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledPopupArrayDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(aac99d6d81f90e54cabd822770c11875) path("Assets/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs") state(2)
+Script is not up to date after domain reload: guid(aeec2ac650d2d8f40aa3b9e0cb807db5) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(1b5715cd99e4a2e4c91d69653d31dad9) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(fd0e43229939f8b45bd79345e699dfcd) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs") state(2)
+Script is not up to date after domain reload: guid(b40d7a397aa055b46a1651ee9f9bdd03) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(a5681c6e5862ae545ba9b00a5b813250) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(93308045fbb3c5e42ba5ccb66d848632) path("Assets/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs") state(2)
+Script is not up to date after domain reload: guid(a832b9f47ccef214e81c89efe6bf31dd) path("Assets/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(7c167590d9d480e438111f555c3a9d09) path("Assets/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs") state(2)
+Script is not up to date after domain reload: guid(e137daebc2f7e0c4aa0ee5c5b140e8fd) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(d4bc1ff93a8a28e42954d7469249a7a0) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs") state(2)
+Script is not up to date after domain reload: guid(59972e7bf8bf5e249a0bae7d912f7bdb) path("Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/PolyverseSkiesCreate.cs") state(2)
+Script is not up to date after domain reload: guid(364f1df7c922ba84fa6fc52fd3900332) path("Assets/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs") state(2)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 4.054800 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.072700 ms MarkObjects: 3.682000 ms  DeleteObjects: 0.033200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1138ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.2 MB.
+System memory in use after: 133.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 3.395400 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.981500 ms  DeleteObjects: 0.166900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1005.939623 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator
+  artifactKey: Guid(31102a75389d7be4e8f82522356fcca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator using Guid(31102a75389d7be4e8f82522356fcca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a032cffc8616c5f37cac8bf726efd5f') in 0.009687 seconds 
+  Import took 0.013634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.778423 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials
+  artifactKey: Guid(4ba9f161afd4f6e46a6499381d0a4bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials using Guid(4ba9f161afd4f6e46a6499381d0a4bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266761fd5556dd25684257a78434e6da') in 0.006697 seconds 
+  Import took 0.010345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046337 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat
+  artifactKey: Guid(e74324e36b5e05b4b90fcfe39d80b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat using Guid(e74324e36b5e05b4b90fcfe39d80b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f95e1b3d83099111f718fda996e689d') in 0.199875 seconds 
+  Import took 0.203613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.910556 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator.FBX
+  artifactKey: Guid(3dbe3438ed8abc34db005a02edff095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator.FBX using Guid(3dbe3438ed8abc34db005a02edff095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4399fa2786945097bd34296416291ff') in 0.047879 seconds 
+  Import took 0.051447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator_Chunk.FBX
+  artifactKey: Guid(3f73669ea4b80494a9c631dab766a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Meshes/Cloud_Generator_Chunk.FBX using Guid(3f73669ea4b80494a9c631dab766a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5783afbfed275b044f2abe44523124c3') in 0.020634 seconds 
+  Import took 0.023967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.916014 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Scripts/Boxophobic.PolyverseSkies.Scripts.asmdef
+  artifactKey: Guid(5829c26677b511c4ab273a505814d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Scripts/Boxophobic.PolyverseSkies.Scripts.asmdef using Guid(5829c26677b511c4ab273a505814d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d5459dedafc8d9c692629b06d65c9f') in 0.010245 seconds 
+  Import took 0.013841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.969221 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Shaders/Rendering Clouds.mat
+  artifactKey: Guid(13dc708cc67c98145be44921d58a7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Shaders/Rendering Clouds.mat using Guid(13dc708cc67c98145be44921d58a7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9da78b2819442b46a681289e962e04') in 0.017259 seconds 
+  Import took 0.020931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.633874 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Demo/Demo.unity
+  artifactKey: Guid(8dc67afdb3052ff45b0b725be038492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Demo/Demo.unity using Guid(8dc67afdb3052ff45b0b725be038492b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd37f9c49fff04992f8ac4feba330da') in 0.008966 seconds 
+  Import took 0.012964 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1133ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.6 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2737.
+Total: 3.880100 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.066500 ms MarkObjects: 3.437200 ms  DeleteObjects: 0.153200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.368452 seconds.
+  path: Assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef
+  artifactKey: Guid(825ad574da7360d4e8aea558f272972e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef using Guid(825ad574da7360d4e8aea558f272972e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c57d4688167f55573f4d58e4bd369c1') in 0.011395 seconds 
+  Import took 0.015562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.433781 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c9e2a1a087b710def43f963faea34d') in 0.021424 seconds 
+  Import took 0.025098 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2739.
+Total: 4.013100 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.067300 ms MarkObjects: 3.586200 ms  DeleteObjects: 0.135300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.860209 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat
+  artifactKey: Guid(e74324e36b5e05b4b90fcfe39d80b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat using Guid(e74324e36b5e05b4b90fcfe39d80b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641ac8b727adb8377171d6b34fe7cd2a') in 0.068540 seconds 
+  Import took 0.072553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.613777 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 A.png
+  artifactKey: Guid(ee7bf433ad404fe4cb5e19b8a93b3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 A.png using Guid(ee7bf433ad404fe4cb5e19b8a93b3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65198d5b64a0fcd81a1ad336feee932f') in 0.229275 seconds 
+  Import took 0.234723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 B.png
+  artifactKey: Guid(8d7166f9f362bce45af5049a10979b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 01 B.png using Guid(8d7166f9f362bce45af5049a10979b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fee93ce0db3f7c07be69a919e52a8cc') in 0.184505 seconds 
+  Import took 0.199676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 A.png
+  artifactKey: Guid(34edc89721b136d45a381ad609aa5793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 A.png using Guid(34edc89721b136d45a381ad609aa5793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92c5c84ba87ea3d2fd9b2f930d4ea7d') in 0.177204 seconds 
+  Import took 0.182981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 B.png
+  artifactKey: Guid(023872850b03c4f469cf2ed17cd8b705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 B.png using Guid(023872850b03c4f469cf2ed17cd8b705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f24d6535c67fca5dd69a070b300879d') in 0.161948 seconds 
+  Import took 0.166911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 A.png
+  artifactKey: Guid(5bf545dec997743419de1df4195b3a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 A.png using Guid(5bf545dec997743419de1df4195b3a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ee24dcf5f969005a9e5d3e10c560d2') in 0.159018 seconds 
+  Import took 0.164254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 A.png
+  artifactKey: Guid(eb066507e9bb4884e9d201eb874ccf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 04 A.png using Guid(eb066507e9bb4884e9d201eb874ccf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6354f8f6becf02cf9442baead0ec94fd') in 0.163255 seconds 
+  Import took 0.168305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 B.png
+  artifactKey: Guid(e3373d7062a4a5044ac0f0745de6c934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 03 B.png using Guid(e3373d7062a4a5044ac0f0745de6c934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a099350cff4fefe19e185c0a565413') in 0.165659 seconds 
+  Import took 0.170660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 B.png
+  artifactKey: Guid(5a0b534896747994487da03b1fc5b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 02 B.png using Guid(5a0b534896747994487da03b1fc5b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ac730fa58e0a2ed64dda78e729fea6') in 0.168130 seconds 
+  Import took 0.173032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.620877 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 A.png
+  artifactKey: Guid(c38d494f5baa15f409afb86bf0d6fe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 A.png using Guid(c38d494f5baa15f409afb86bf0d6fe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ef48646a179bf8a9b7086ff31ccf20') in 0.176582 seconds 
+  Import took 0.182890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068986 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 01.png
+  artifactKey: Guid(3845b30ba2fbdee44a85e5ead4dd2974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 01.png using Guid(3845b30ba2fbdee44a85e5ead4dd2974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdf87e0c2cfa650e155392a71817046') in 0.200145 seconds 
+  Import took 0.204534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 B.png
+  artifactKey: Guid(5df5f8e237761404a9f395bab51aef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Clouds/Clouds 05 B.png using Guid(5df5f8e237761404a9f395bab51aef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf09d80d22d1a43c8c74dc80a750652') in 0.177211 seconds 
+  Import took 0.182292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112503 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 02.png
+  artifactKey: Guid(5e08451c0e8bb7a4f9ca20067695cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 02.png using Guid(5e08451c0e8bb7a4f9ca20067695cda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71947d7425fdca9c3fae65a8d14a81b') in 0.117055 seconds 
+  Import took 0.131452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Blockout/Examples/FPS/ReflectionProbe-0.exr
+  artifactKey: Guid(d7eadc7969c991f4f83003c9859176c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Examples/FPS/ReflectionProbe-0.exr using Guid(d7eadc7969c991f4f83003c9859176c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feae279d0276b9d24d411530140b8cb') in 0.074040 seconds 
+  Import took 0.078053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Blockout/Examples/Rollerball/ReflectionProbe-0.exr
+  artifactKey: Guid(6a8360be9dfd3ad48b4a767270202d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Examples/Rollerball/ReflectionProbe-0.exr using Guid(6a8360be9dfd3ad48b4a767270202d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4216c88544cc9a3c21aa3646d926247') in 0.049149 seconds 
+  Import took 0.053404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Blockout/Examples/All Assets/ReflectionProbe-0.exr
+  artifactKey: Guid(ceac6573732cdc84cac995f7203532d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Examples/All Assets/ReflectionProbe-0.exr using Guid(ceac6573732cdc84cac995f7203532d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a482835cdf9a6e90bf3b538617bb94') in 0.031587 seconds 
+  Import took 0.035961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 03.png
+  artifactKey: Guid(2496987be02f21244bcd1e6c3bfa5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 03.png using Guid(2496987be02f21244bcd1e6c3bfa5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccc3127ce1fefc1b4b8ba2cf3e1a15c') in 0.130607 seconds 
+  Import took 0.135184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.843733 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 5Corners.png
+  artifactKey: Guid(2410ceb2200b01a4cad9ef3c253b8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 5Corners.png using Guid(2410ceb2200b01a4cad9ef3c253b8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cba4d7755158a79df98245fcc2a0c7') in 0.103828 seconds 
+  Import took 0.107461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 8Corners.png
+  artifactKey: Guid(ef37dd05448664543ab7eeb444cec2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 8Corners.png using Guid(ef37dd05448664543ab7eeb444cec2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dba73d397d3317d00561df4df6a717') in 0.106696 seconds 
+  Import took 0.109986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Disk.png
+  artifactKey: Guid(17fc448885ac9274db61725c98025b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Disk.png using Guid(17fc448885ac9274db61725c98025b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88c68fa82216e1f8d91e4d00c9a24b6') in 0.109042 seconds 
+  Import took 0.112488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Rhombus.png
+  artifactKey: Guid(cd8517e16ac507a4ea8c50fa7460ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Rhombus.png using Guid(cd8517e16ac507a4ea8c50fa7460ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b62f64b88ce1287aa0969d180f82269') in 0.115972 seconds 
+  Import took 0.119512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Square.png
+  artifactKey: Guid(4136c4d5d7422cf49a21b885d09f4518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Square.png using Guid(4136c4d5d7422cf49a21b885d09f4518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87b9793d904d274651fc4dc47eaa1d1') in 0.110521 seconds 
+  Import took 0.114345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.850314 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 01.png
+  artifactKey: Guid(16d300134c867234588aeecccb9392b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 01.png using Guid(16d300134c867234588aeecccb9392b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a81ef90273fb9a108db5e5cc5992c40') in 0.019268 seconds 
+  Import took 0.022829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 04.png
+  artifactKey: Guid(b15c2596790c6ce42980282a7e842f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 04.png using Guid(b15c2596790c6ce42980282a7e842f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02b30ad41fdb411e540f6d0cd5ab972') in 0.022843 seconds 
+  Import took 0.026311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 03.png
+  artifactKey: Guid(e80870b385adcae48871133b9b5759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 03.png using Guid(e80870b385adcae48871133b9b5759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4feb7a103d31512055e9e4df8b9cf9') in 0.026088 seconds 
+  Import took 0.029362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 02.png
+  artifactKey: Guid(bca1a5f579c02d74dbc7e7f61cda640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 02.png using Guid(bca1a5f579c02d74dbc7e7f61cda640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8973ea6dcd7a2c8ee3c50321b555e6c') in 0.020893 seconds 
+  Import took 0.024381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 05.png
+  artifactKey: Guid(4d70420f1a4758e469e0ac65b6df86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 05.png using Guid(4d70420f1a4758e469e0ac65b6df86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6745b792feb181d5af4df5f2fd6d93e1') in 0.017529 seconds 
+  Import took 0.022063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.505136 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Noise/Noise 01.png
+  artifactKey: Guid(4962b985402794749902f8b024ee1934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Noise/Noise 01.png using Guid(4962b985402794749902f8b024ee1934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5569104b1d521462eb0f32114079aa0b') in 0.015071 seconds 
+  Import took 0.018981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.761111 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/Boxophobic.PolyverseSkies.Editor.asmdef
+  artifactKey: Guid(64d146cbcd54dd1458427c80d2ccbc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/Boxophobic.PolyverseSkies.Editor.asmdef using Guid(64d146cbcd54dd1458427c80d2ccbc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbf28251fcb6493a45e28198052f105') in 0.006705 seconds 
+  Import took 0.010397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/Version.asset
+  artifactKey: Guid(302d182101c78ef4d9d5d199b7f3a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Editor/Version.asset using Guid(302d182101c78ef4d9d5d199b7f3a185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b217c8b6467d40ae22167982ac8440a5') in 0.009465 seconds 
+  Import took 0.013090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.725929 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Demo
+  artifactKey: Guid(944ba4339d95a5f469b3af7eb10a8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Demo using Guid(944ba4339d95a5f469b3af7eb10a8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f8599e8d7607e33a4b51e3ac2b1724') in 0.007518 seconds 
+  Import took 0.011199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.901394 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Generator.unity
+  artifactKey: Guid(3aadc2a71fa863d4a9f71af8eaf81d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Generator.unity using Guid(3aadc2a71fa863d4a9f71af8eaf81d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3fd3e9efff973c969274005c44ace2') in 0.008848 seconds 
+  Import took 0.012559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.999135 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/ALL_ASSETS.png
+  artifactKey: Guid(d17d8e7754f604d91aba72b791da2716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/ALL_ASSETS.png using Guid(d17d8e7754f604d91aba72b791da2716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dc3116642a34ccdb356dac088c6b9a') in 0.110454 seconds 
+  Import took 0.114386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif
+  artifactKey: Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif using Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e77bf75b2a852f68a3541bed44ac9c') in 0.025714 seconds 
+  Import took 0.029398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Historic environment/Wall_1/Texture/AO.png
+  artifactKey: Guid(35e39f68c573f495490022b7955c59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Historic environment/Wall_1/Texture/AO.png using Guid(35e39f68c573f495490022b7955c59ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9faa414c0f4ccf4e6fbd3bae30de32') in 0.063951 seconds 
+  Import took 0.085846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif
+  artifactKey: Guid(b41d630ccc344454bb1f27587f9acd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif using Guid(b41d630ccc344454bb1f27587f9acd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de8a49b9d39d5cc3a92149ba6f29319') in 0.028533 seconds 
+  Import took 0.032698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/ALL_ASSETS_Light.png
+  artifactKey: Guid(a7b43833b737b499594252dd32cc1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/ALL_ASSETS_Light.png using Guid(a7b43833b737b499594252dd32cc1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260b1c32fec570e47bf83eb1d25dcb59') in 0.049601 seconds 
+  Import took 0.053295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.192382 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif
+  artifactKey: Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif using Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a34c270c38b92a1e7b4d82bb538049e') in 0.016118 seconds 
+  Import took 0.020249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconMoore.png
+  artifactKey: Guid(54d8b277e9cd64949b3696ccf36a5f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconMoore.png using Guid(54d8b277e9cd64949b3696ccf36a5f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22056cae1171e82ced4061716b9c7a03') in 0.061832 seconds 
+  Import took 0.065795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.982731 seconds.
+  path: Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundHover.png
+  artifactKey: Guid(2d5c15aa954c2b34f9ebe154c29b6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundHover.png using Guid(2d5c15aa954c2b34f9ebe154c29b6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb649ce5eb32c7c09671f5311bbc1a89') in 0.036744 seconds 
+  Import took 0.040590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png
+  artifactKey: Guid(85f5b887e2364fb5b9d26ce9cae99480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#NVJOB Water Shaders V2/Example Scenes/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png using Guid(85f5b887e2364fb5b9d26ce9cae99480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc401fc4c363c8ebf58a50b275bd81f0') in 0.033929 seconds 
+  Import took 0.037846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Source/Textures/neutral.tif
+  artifactKey: Guid(55e05e8c1ca5996429a39a50faa136c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Source/Textures/neutral.tif using Guid(55e05e8c1ca5996429a39a50faa136c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083fd4287ff0a848d6d7d09f6e8de5cf') in 0.041708 seconds 
+  Import took 0.045190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Rocks and Boulders 2/Rocks/Source/Textures/neutral_nmp.tif
+  artifactKey: Guid(be834ced0f6dfe5449701caebb2023c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks and Boulders 2/Rocks/Source/Textures/neutral_nmp.tif using Guid(be834ced0f6dfe5449701caebb2023c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5b6909b1cc35ef059649c1a86cb477') in 0.026033 seconds 
+  Import took 0.030082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.919467 seconds.
+  path: Assets/com/heparo/terrain/toolkit/editor/resources/modelBackground.png
+  artifactKey: Guid(797a6a7a9d8e4624fa3db25d5c9588b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/editor/resources/modelBackground.png using Guid(797a6a7a9d8e4624fa3db25d5c9588b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd832118370c6eddc8c6eed1da4044cd3') in 0.040341 seconds 
+  Import took 0.044215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundDown.png
+  artifactKey: Guid(069090165514e814285334729a6e5bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundDown.png using Guid(069090165514e814285334729a6e5bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6736b3e9dff72373666245d540841114') in 0.030079 seconds 
+  Import took 0.034166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.731897 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Suns/Sun 01.png
+  artifactKey: Guid(dd566660fc358aa4098080e42ca0db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Suns/Sun 01.png using Guid(dd566660fc358aa4098080e42ca0db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eddffd5fa94210fcf5b3374d10a8a2c') in 0.013639 seconds 
+  Import took 0.017255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_right.tif
+  artifactKey: Guid(f7b9e6ef55761314284044ad1c37b3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_right.tif using Guid(f7b9e6ef55761314284044ad1c37b3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a70cf6721d616c1c76580e146b831e') in 0.075923 seconds 
+  Import took 0.079279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_left.tif
+  artifactKey: Guid(3e4fe63354d5fdc4891c04ecfa3c26a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_left.tif using Guid(3e4fe63354d5fdc4891c04ecfa3c26a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059951eb6fc8fbf17f9432ecf7c956aa') in 0.056492 seconds 
+  Import took 0.076183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_front.tif
+  artifactKey: Guid(dceb190b37210134f9be1f303e908335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_front.tif using Guid(dceb190b37210134f9be1f303e908335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed379831722ef8b37ab1f1fd80001708') in 0.049730 seconds 
+  Import took 0.053032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_back.tif
+  artifactKey: Guid(df28bd3459400874ea6438c740102e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_back.tif using Guid(df28bd3459400874ea6438c740102e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b279f3041fa738ce7824466ad3fb19a') in 0.068622 seconds 
+  Import took 0.089224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_up.tif
+  artifactKey: Guid(6a9c959e5c381584fb707d2fda9aec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_up.tif using Guid(6a9c959e5c381584fb707d2fda9aec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8456c7589b3469d24a051270d37e97e3') in 0.062262 seconds 
+  Import took 0.065651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_down.tif
+  artifactKey: Guid(a96c58dc4135b044eb89bfb769764999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com/heparo/terrain/toolkit/demonstration/textures/Sunny2_down.tif using Guid(a96c58dc4135b044eb89bfb769764999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b990cd72dea724130f2a6e918220f17e') in 0.023082 seconds 
+  Import took 0.026491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.323861 seconds.
+  path: Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat
+  artifactKey: Guid(e74324e36b5e05b4b90fcfe39d80b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Polyverse Skies/Generator/Materials/Skybox.mat using Guid(e74324e36b5e05b4b90fcfe39d80b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4df58c3138c9582495d2e9b55eb24f4') in 0.072404 seconds 
+  Import took 0.081380 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
