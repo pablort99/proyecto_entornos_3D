@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Blockout_Theme_User_Water
   m_Shader: {fileID: 4800000, guid: 8eb3b63437aac374d93a46439d0f21e2, type: 3}
   m_ShaderKeywords: 
@@ -50,7 +51,8 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0.5147059, g: 0.8393508, b: 1, a: 1}
-    - _Color_1: {r: 0.5, g: 0.8137932, b: 1, a: 0.628}
+    - _Color_1: {r: 0.57817453, g: 1, b: 0.29622638, a: 0.628}
     - _Color_2: {r: 0.3455882, g: 0.3455882, b: 0.3455882, a: 1}
     - _Depth_Color: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

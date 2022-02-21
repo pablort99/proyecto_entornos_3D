@@ -9,11 +9,11 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Skybox
   m_Shader: {fileID: 4800000, guid: 6fc9318f5193c094c98c0d450cd61e3b, type: 3}
-  m_ShaderKeywords: _BACKGROUNDMODE_COLORS _BUILTINFOG_ON _CLOUDS_ON _ENABLECLOUDSROTATION_ON
-    _ENABLECLOUDS_ON _ENABLEMOON_ON _ENABLEPATTERN_ON _ENABLESKYPATTERNOVERLAY_ON
-    _ENABLESTARSSUNMASK_ON _ENABLESTARSTWINKLING_ON _ENABLESTARS_ON _ENABLESUNMASK_ON
-    _ENABLESUNMOONMASK_ON _ENABLESUNMOON_ON _ENABLESUN_ON _ENABLETWINKLING_ON _PATTERNOVERLAY_ON
-    _STARS_ON _SUNORMOON_ON _USECUBEMAP_ON _USEENVIRONMENTGRADIENT_ON _USESKYPATTERNOVERLAY_ON
+  m_ShaderKeywords: _BACKGROUNDMODE_CUBEMAP _BUILTINFOG_ON _CLOUDS_ON _ENABLECLOUDSROTATION_ON
+    _ENABLECLOUDS_ON _ENABLEMOON_ON _ENABLEPATTERNOVERLAY_ON _ENABLEPATTERN_ON _ENABLESKYPATTERNOVERLAY_ON
+    _ENABLESTARSSUNMASK_ON _ENABLESTARSTWINKLING_ON _ENABLESUNMASK_ON _ENABLESUNMOONMASK_ON
+    _ENABLESUNMOON_ON _ENABLESUN_ON _ENABLETWINKLING_ON _PATTERNOVERLAY_ON _STARS_ON
+    _SUNORMOON_ON _USECUBEMAP_ON _USEENVIRONMENTGRADIENT_ON _USESKYPATTERNOVERLAY_ON
     _USETEXTURE_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -56,7 +56,7 @@ Material:
     - _BackgroundCat: 1
     - _BackgroundCubemapSpace: 0
     - _BackgroundExposure: 1
-    - _BackgroundMode: 0
+    - _BackgroundMode: 1
     - _Banner: 1
     - _CloudsCat: 1
     - _CloudsHeight: -0.061
@@ -69,8 +69,8 @@ Material:
     - _EnableCloudsRotation: 1
     - _EnableFogMessage: 0
     - _EnableMoon: 1
-    - _EnablePatternOverlay: 0
-    - _EnableStars: 1
+    - _EnablePatternOverlay: 1
+    - _EnableStars: 0
     - _EnableStarsRotation: 0
     - _EnableStarsTwinkling: 1
     - _EnableSun: 1
@@ -105,10 +105,10 @@ Material:
     m_Colors:
     - _CloudsLightColor: {r: 0.5058824, g: 0.53141433, b: 1, a: 1}
     - _CloudsShadowColor: {r: 0.0850907, g: 0, b: 0.23584908, a: 1}
-    - _EquatorColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EquatorColor: {r: 0.8283803, g: 0.44770378, b: 0.9056604, a: 1}
+    - _GroundColor: {r: 0.9433962, g: 0.13705942, b: 0.13705942, a: 1}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SkyColor: {r: 0.0009789985, g: 0.10269026, b: 0.20754719, a: 1}
+    - _SkyColor: {r: 0.253115, g: 0.27077988, b: 0.5660378, a: 1}
     - _SkyboxRotationAxis: {r: 0, g: 1, b: 0, a: 0}
     - _SunColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
